@@ -1,10 +1,6 @@
-import pandas as pd
-from pandas_datareader import data as pdr
+import pandas as pd, numpy as np, matplotlib.pyplot as plt
 import yfinance as yf
-import numpy as np
-import datetime as dt
 from scipy.stats import norm
-import matplotlib.pyplot as plt
 
 #Tech sector, Real estate select sector, Retail, Gold
 tickers = ['XLK', 'XLRE', 'XRT', 'GLD']
@@ -16,7 +12,7 @@ weights = np.array([.25, .25, .25, .25])
 initial_investment = 1000000
 
 # Download closing prices FOR TWO YEARS TOTAL BEFORE MARKET CRASH
-data = pdr.get_data_yahoo(tickers, start="2018-02-20", end="2020-02-20")['Close']
+data = yf.download(tickers, start="2018-02-20", end="2020-02-20")['Adj Close']
 
 # From the closing prices, calculate periodic returns
 returns = data.pct_change()
@@ -58,7 +54,6 @@ cutoff1 = norm.ppf(conf_level1, mean_investment, stdev_investment)
 var_1d1 = initial_investment - cutoff1
 print(var_1d1)
 
-# DONT FORGET TO IMPORT import matplotlib.pyplot as plt
 # Calculate n Day VaR
 var_array = []
 num_days = int(15)
@@ -73,3 +68,15 @@ plt.title("Max portfolio loss (VaR) over 15-day period")
 plt.plot(var_array, "r")
 
 plt.show()
+
+forward_data = yf.download(tickers, start="2020-02-20", end="2020-03-13")['Adj Close']
+print(forward_data)
+
+# From the closing prices, calculate periodic returns
+forward_returns = forward_data.pct_change(periods=14)[-1:] * weights
+
+print(forward_returns.sum(axis=1)[0])
+
+pnl_14day = float(forward_returns.sum(axis=1)[0]) * float(initial_investment)
+
+print("14 day real P&L= " + str(np.round(pnl_14day,2)) + " which is way higher than the 14 day 95% VAR of " + str(np.round(var_1d1 * np.sqrt(x),2)))
