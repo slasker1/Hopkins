@@ -1,4 +1,9 @@
-Apply linear algebra and matrix theory to solve systems of linear equations and to solve eigenvectors/eigenvalues problems
-Apply differential and integral calculus to solve engineering and applied math problems
-Apply vector algebra and calculus methods to calculate line and surface integrals
-Solve first and second order differential equations
+#Applied Mathematics
+
+##Content
+* Linear algebra
+* Matrix theory to solve linear equations
+* Eigenvectors / eigenvalues
+* Differential and integral calculus
+* Apply vector algebra and calculus methods to calculate line and surface integrals
+* First and Second ODE (order differential equations) 
