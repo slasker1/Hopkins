@@ -1,6 +1,6 @@
-#Applied Mathematics
+# Applied Mathematics
 
-##Content
+## Content
 * Linear algebra
 * Matrix theory to solve linear equations
 * Eigenvectors / eigenvalues
