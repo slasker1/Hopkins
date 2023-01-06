@@ -1,1 +1,13 @@
-Topics covered include random number generation, simulation of Brownian motion and stochastic differential equations, output analysis for Monte Carlo simulations, variance reduction, Markov chain Monte Carlo, simulation-based estimation for dynamical (state-space) models, and, time permitting, sensitivity analysis and simulation-based optimization.
+# Monte Carlo Methods
+
+## Content
+
+* Random number generation
+* Simulation of Brownian motion
+* Stochastic differential equations (SDEs)
+* Output analysis
+  * Variance reductions
+  * Markov chain Monte Carlo
+  * Simulation-based estimation for dynamical (state-space) models
+* Sensitivity analysis
+* Simulation-based optimization
