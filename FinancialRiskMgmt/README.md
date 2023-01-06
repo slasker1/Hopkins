@@ -1,1 +1,25 @@
-The focus is on financial risk. Sources of risk for financial instruments (e.g., market risk, interest rate risk, credit risk) are analyzed; models for these risk factors are studied and the limitation, shortcomings, and compensatory techniques are addressed. Throughout the course, the environment for risk is considered, be it regulatory or social (e.g., Basel capital accords). A major component of the course are the Value at Risk (VaR) and Conditional VaR measures for market risk in trading operations, including approaches for calculating and aggregating VaR, testing VaR, VaR-driven capital for market risk, and limitations of the VaR-based approach. Asset Liability Management (ALM), where liquidity risk as well as market risk can affect the balance sheet, is analyzed. Here, models for interest rate, spread, and volatility risks are applied to quantify this exposure. Another major component of the course is credit risk. Sources of credit risk, how measured risk is used to manage exposure, credit derivatives, techniques for measuring default exposure for a single facility (including discriminant analysis and Mertonbased simulation), portfolio risk aggregation approaches (including covariance, actuarial, Merton-based simulation, macro-economic default model, and the macro-economic cashflow model – for structured and project finance). Finally, there is a brief introduction to concepts and tools that remain valid for large and extreme price moves, including the theory of copulas and their empirical testing and calibration. 
+# Financial Risk Management
+
+## Content
+* Risk for Financial instruments
+  * Market risk, interest rate risk, credit risk
+* Regulatory / Social Risk
+  * Basel capital accord
+* Value at Risk (VaR)
+  * Conditional VaR
+* Asset Liability Management (ALM)
+  * Liquidity risk / market risk balance sheet impact
+* Quantifying exposure:
+  * Models for interest rate, spread, and volatility risks
+* Credit Risk
+  * Exposure
+  * Credit Derivatives
+  * Default exposure for a single facility
+    * Discriminatory Analysis & Merton Based Simulation
+* Portfolio Risk
+  * Covariance
+  * Actuarial
+  * Merton-based simulation
+  * Macro-economic default model, and the macro-economic cashflow model (structured and project finance)
+* Extreme loss / price movements
+  * Theory of copulas and their empirical testing and calibration
