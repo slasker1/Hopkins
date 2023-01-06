@@ -1,1 +1,13 @@
-This is the second of a two-course sequence devoted to the mathematical modeling of securities and the markets in which they are created and exchanged. Focus turns to interest rate derivatives and the credit markets. The martingale approach to risk-neutral valuation is covered, followed by interest rate derivatives and models of the short rate process (including Heath, Jarrow & Morton and the Libor Market Model); analysis of bonds with embedded options and other interest rate derivatives (e.g., caps, floors, swaptions). Credit risk and credit derivatives, including copula models of time to default, credit default swaps, and a brief introduction to collateralized debt obligations will be covered. A major component of this course is computational methods. This includes data and time series analysis (e.g., estimation of volatilities), developing binomial and trinomial lattices and derivative analysis schemes, and numerical approaches to solving the partial differential equations of derivatives.
+# Interest Rate and Credit Derivatives
+
+## Content
+* Martingale approach to risk-neutral valuation
+* Interest rate derivatives and models of the short rate process
+  * Heath, Jarrow & Morton and the Libor Market Model
+* Bonds with embedded options and other interest rate derivatives
+  * Caps, floors, swaptions
+* Credit risk and credit derivatives
+  * Copula models of time to default, CDS, and CDOs
+* Estimation of volatilities
+  * Binomial and trinomial lattices and derivative analysis
+  * Numerical approaches to solving the PDEs of derivatives
