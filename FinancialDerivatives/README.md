@@ -1,1 +1,13 @@
-This is the first of a two-course sequence devoted to the mathematical modeling of securities and the markets in which they are created and exchanged. The basic cash, hybrid, and derivative instruments are reviewed and set in a rigorous mathematical context. This includes equities, bonds, options, forwards, futures, and swaps, as well as their dealer, overthe-counter, and exchange environment. Models of the term structure of interest rates, spot rates and, the forward rate curve are treated; derived from cash instruments (e.g., bonds and interest rates like LIBOR) as well as from derivatives (such as Eurodollar futures and swaps). Principles of static, discrete, continuous and dynamic probabilistic models for derivative analysis (including the Weiner process, Ito’s Lemma, and an introduction to risk-neutral valuation) are applied to develop the binomial tree approach to option valuation, the Black-ScholesMerton differential equation, and the Black-Scholes formulas for option pricing. Course Note(s): This course is the same as EN.553.644 offered by through the full-time Applied Mathematics & Statistics department for the residence Master of Science in Engineering in Financial Mathematics.
+# Financial Derivatives
+
+## Content
+* Cash, Hybrid, & Derivative Instruments
+  * Equities, bonds, options, forwards, futures, and swaps
+* Term structure models
+  * Interest rates
+  * Spot rates
+  * Forward curve
+    * Derived from cash (bonds and LIBOR / SOFR) and derivatives (Eurodollar futures and swaps)
+*  Probabilistic models for derivative analysis: static, discrete, continuous and dynamic
+  * Weiner process, Ito’s Lemma, and risk-neutral valuation
+    * Developing option valuation, Black-Scholes Merton DE, and Black-Scholes formulas for option pricing
