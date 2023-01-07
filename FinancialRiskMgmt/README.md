@@ -23,3 +23,6 @@
   * Macro-economic default model, and the macro-economic cashflow model (structured and project finance)
 * Extreme loss / price movements
   * Theory of copulas and their empirical testing and calibration
+
+## Textbook Info
+* [Risk Management and Financial Institutions, 5th Edition](https://www-2.rotman.utoronto.ca/~hull/riskman/index.html)
