@@ -1,1 +1,12 @@
-stochastic differential equations, including weak and strong approximation, efficient numerical methods and error estimates, the relation between stochastic differential equations and partial differential equations, Monte Carlo simulations with applications in financial mathematics, population growth models, parameter estimation, and filtering and optimal control problems. Prerequisite(s): Multivariate calculus and a graduate course in probability and statistics, as well as exposure to ordinary differential equations.
+# Stochastic Differential Equations
+
+## Content
+
+* Weak and strong approximation
+* Efficient numerical methods and error estimates
+* Relation between SDEs and PDEs
+* Monte Carlo simulations
+  * Financial mathematics
+  * Population growth models
+  * Parameter estimation
+  * Filtering and optimal control problems
