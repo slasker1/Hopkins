@@ -3,7 +3,6 @@
 ## Content
 
 * Modeling & optimizing asset selection / allocation
-  * s
 * Performance assessment
   * Sharpe
   * Treynore
