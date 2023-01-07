@@ -1,1 +1,23 @@
-ntertemporal approaches to modeling and optimizing asset selection and asset allocation; benchmarks (indexes), performance assessment (including Sharpe, Treynor, and Jenson ratios) and performance attribution; immunization theorems; alpha-beta separation in management, performance measurement, and attribution; Replicating Benchmark Index (RBI) strategies using cash securities/derivatives; Liability-Driven Investment (LDI); and the taxonomy and techniques of strategies for traditional management (Passive, Quasi-Passive [Indexing] Semi-Active [Immunization & Dedicated] Active [Scenario, Relative Value, Total Return and Optimization]). In addition, risk management and hedging techniques are also addressed.
+# Quantitative Portfolio Theory
+
+## Content
+
+* Modeling & optimizing asset selection / allocation
+  * s
+* Performance assessment
+  * Sharpe
+  * Treynore
+  * Jenson
+* Performance attribution
+* Immunization theorems
+* Alpha-beta management seperation
+* Replicating Benchmark Index (RBI) strategies
+  * Cash use
+  * Derivative use
+* Liability-driven investment (LDI)
+* Strategies
+  * Passive
+  * Quasi-Passive (Indexing)
+  * Semi-Active (Immunization & Dedicated)
+  * Active (Scenario, Relative Value, Total Return and Optimization)
+* Hedging & Risk mgmt
