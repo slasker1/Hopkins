@@ -1,1 +1,18 @@
-such as probability rules, related inequalities, random variables, probability distributions, moments, and jointly distributed random variables, are followed by foundations of statistical inference, including estimation approaches and properties, hypothesis testing, and model building. Data analysis ranging from descriptive statistics to the implementation of common procedures for estimation, hypothesis testing, and model building is the focus after the foundational methodology has been covered. Software, for example R-Studio, will be leveraged to illustrate concepts through simulation and to serve as a platform for data analysis. 
+# Statistics and Data Analysis
+
+## Content
+
+* Probability rules
+* Related inequalities
+* Random variables
+* Probability distributions
+* Moments
+* Jointly distributed random variables
+* Statistical inference foundations
+  * Estimation approaches and properties
+  * Hypothesis testing
+  * Model building
+* Data analysis
+  * Descriptive statistics
+  * Implementation of common procedures for estimation, hypothesis testing, and model building
+  * R-studio simulation
